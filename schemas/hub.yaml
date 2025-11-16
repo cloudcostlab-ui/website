@@ -1,0 +1,8 @@
+title: string
+slug: string
+type: hub
+clouds:
+  - aws | azure | gcp | kubernetes | saas
+description: string
+seo_title: string
+seo_description: string

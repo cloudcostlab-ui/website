@@ -1,0 +1,48 @@
+id: string
+slug: string
+status: draft | published
+
+cloud: aws | azure | gcp | kubernetes | saas
+provider_service: string
+category: string
+sub_category: string
+
+title: string
+seo_title: string
+seo_description: string
+primary_keyword: string
+secondary_keywords:
+  - string
+
+audience:
+  - finops-practitioner
+  - cloud-architect
+intent: comparison | benchmark | explainer
+difficulty: beginner | intermediate | advanced
+
+region_focus:
+  - string
+currency: string
+
+scenario:
+  summary: string
+  workload_type: string
+  utilisation_percent: number
+  commitment_strategy: string
+  time_horizon_months: number
+
+assumptions:
+  - string
+
+narrative:
+  tl_dr: string
+  key_sections:
+    - id: cost-profile
+      title: Cost profile
+      summary: string
+    - id: optimisation-patterns
+      title: Optimisation patterns
+      summary: string
+    - id: risks
+      title: Risks & gotchas
+      summary: string
